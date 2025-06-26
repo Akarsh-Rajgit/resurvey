@@ -1,0 +1,49 @@
+.app-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #177bfd;
+}
+
+h2{
+  color:aqua
+}
+
+.stat{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #28ef0d;
+}
+
+p{
+  color: #3cf3af;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #3d3d3d;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: center;
+}
